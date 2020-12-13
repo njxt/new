@@ -17,21 +17,21 @@ function loaded(){
 var x = 0;
 
 var titleText = [ "|",
-					"Z|",
-					"Z |",
-					"Z I|",
-					"Z I |",
-					"Z I D|",
-					"Z I D |",
-					"Z I D A|",
-					"Z I D A |",
-					"Z I D A R|",
-					"Z I D A R |",
-					"Z I D A R U .|",
-					"Z I D A R U . |",
-					"Z I D A R U . C L U B|",
-					"Z I D A R U  . C L U B |",
-					"Z I D A R U . C L U B|"];
+					"F|",
+					"F |",
+					"F A|",
+					"F A |",
+					"F A R|",
+					"F A R |",
+					"F A R I|",
+					"F A R I |",
+					"F A R I D|",
+					"F A R I D |",
+					"F A R I D .|",
+					"F A R I D . |",
+					"F A R I D . P|",
+					"F A R I D . P |",
+					"F A R I D . P W|"];
 
 function loop(){
 
