@@ -2,7 +2,7 @@ $(document).ready(function() {
     var plinks = [
         {
             name: 'me',
-            plink: ''
+            plink: 'http://steamcommunity.com/id/ezzydkc'
         }
   
     ];
