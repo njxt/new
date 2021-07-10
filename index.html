@@ -1,217 +1,57 @@
-<!--Thank you for your order, have fun using it!!--> <!--ezzy#7777 for more orders.-->
 
-<head>
-    
-    <meta charset="utf-8" />
-	   <meta name="$$$"/>
-        <title>Zidaru</title>
-		<link rel="icon" type="favicon" href="favicon.ico">
-        <link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/animate.css">
-		<link href="css/YTPlayer.css" media="all" rel="stylesheet" type="text/css">
-		<script src="js/title.js"></script>
-        <script src="js/jquery.js"></script>
-        <script src="js/marquee.js"></script>
-        <script src="js/main.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-		<script src="inc/jquery.mb.YTPlayer.js"></script>
-    </a>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!---Edit the name to whatever you want it to show in here: https://i.imgur.com/5H3Hyjq.png --><title>Name</title>
+
+        <!-- here as well (this will show on Google & whenever you type in the link for the site on discord or twitter or whatever, will create an embed) -->
+        <meta property="og:title" content="Site Title" /> 
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://my.site.com" />
+        <meta property="og:image" content="http://my.site.com/images/thumb.png" />
+        <meta property="og:description" content="Site description" />
+        <meta name="theme-color" content="#FF0000">
+        <meta name="twitter:card" content="summary_large_image">
+
+
+        <link href="assets/js/css/hover-min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/style.css"> <!--Don't remove this, it gives the styles implemented into the front end so if you take this off, it will look like html2-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap">
     </head>
-
     <body>
-        <div id="center">
-		<div class="animated fadeInLeft">
-		<pre>              <font size="400">Zidaru.club</font>		
-              
-		</pre>
+        <div class="background">
+            <img src="assets/background.gif" alt="background image"/> <!--Replace the gif file with something else-->
         </div>
-        </div>	 
-
-         
-				 <center><font size="4"><span id="doc_time">date_data</span><center><div id="para1">time_data</div></font>	  
-		<div id="center">
-		<div class="animated fadeInLeft">	
-		<pre>			
-			  <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   <br>
-		   
-		   
-
-
-		</pre>
-		<br>
-		 
-		<pre>$ <a target="_blank" href="https://steamcommunity.com/id/legendofhvh1337/">STEAM</a> $ <a target="_blank" href="https://www.youtube.com/channel/UCWea3z_P65Y5cBPIEM6Srtg">Youtube</a> $ <a href="https://discordapp.com">DISCORD : ZidaruRobert#3634</a> $ <a  href="https://www.instagram.com/zidaru_robert/">Instagram</a> $
-		</div>
-     </div>
-	 
-       <video autoplay muted id="vid" width="1920" height="1080">
-        <source src="video.mp4" type="video/mp4">
-		<script>
-		var video = document.currentScript.parentElement;
-		video.volume = 0.01;
-		</script>
-		</video>
-		<embed id="bgAudio" type="audio/mpeg" src="song.mp3" autoplay="true" height="0" width="200" autostart="true"> </embed>
-		<script>
-            document.getElementById("video").volume=0.015;
-        </script>
-<script>
-  var audio = document.getElementById("bgAudio");
-  audio.volume = 0.01;
-</script>
-    </bodyume = 0.01;
-</script>
-
-<script type="text/javascript">
-      function clock() {
-      var d = new Date();
-      var hours = d.getHours();
-      var minutes = d.getMinutes();
-      var seconds = d.getSeconds();
-      
-      
-      if (hours <= 9) hours = "0" + hours;
-      if (minutes <= 9) minutes = "0" + minutes;
-      if (seconds <= 9) seconds = "0" + seconds;
-      
-      date_time = hours + ":" + minutes + ":" + seconds;
-      if (document.layers) {
-       document.layers.doc_time.document.write(date_time);
-       document.layers.doc_time.document.close();
-      }
-      else document.getElementById("doc_time").innerHTML = date_time;
-       setTimeout("clock()", 10);
-      }
-   </script>
-   <script type="text/javascript">
-      clock();
-   </script>
-   <script type="text/javascript">
-document.getElementById("para1").innerHTML = formatAMPM();
-
-function formatAMPM() {
-var d = new Date(),
-    minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
-    hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
-    ampm = d.getHours() >= 12 ? 'pm' : 'am',
-    months = ['January','Febuary','March','April','May','June','July','August','September','October','November','December'],
-    days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-return days[d.getDay()]+' <center> '+d.getDate()+' '+months[d.getMonth()]+' '+d.getFullYear();
-}
-   </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-   <script language="JavaScript">
-      //////////F12 disable code////////////////////////
-          document.onkeypress = function (event) {
-              event = (event || window.event);
-              if (event.keyCode == 123) {
-                 //alert('No F-12');
-                  return false;
-              }
-          }
-          document.onmousedown = function (event) {
-              event = (event || window.event);
-              if (event.keyCode == 123) {
-                  //alert('No F-keys');
-                  return false;
-              }
-          }
-      document.onkeydown = function (event) {
-              event = (event || window.event);
-              if (event.keyCode == 123) {
-                  //alert('No F-keys');
-                  return false;
-              }
-          }
-      var message=":o";      
-      function clickIE() {if (document.all) {(message);return false;}}
-      function clickNS(e) {if
-      (document.layers||(document.getElementById&&!document.all)) {
-      if (e.which==2||e.which==3) {(message);return false;}}}
-      if (document.layers)
-      {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
-      else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
-      document.oncontextmenu=new Function("return false")
-      function disableCtrlKeyCombination(e)
-      {
-      var forbiddenKeys = new Array('a', 'n', 'c', 'x', 'v', 'j' , 'w');
-      var key;
-      var isCtrl;
-      if(window.event)
-      {
-      key = window.event.keyCode;
-      if(window.event.ctrlKey)
-      isCtrl = true;
-      else
-      isCtrl = false;
-      }
-      else
-      {
-      key = e.which;
-      if(e.ctrlKey)
-      isCtrl = true;
-      else
-      isCtrl = false;
-      }
-      if(isCtrl)
-      {
-      for(i=0; i<forbiddenKeys.length; i++)
-      {
-      if(forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
-      {
-      alert('Key combination CTRL + '+String.fromCharCode(key) +' has been disabled.');
-      return false;
-      }
-      }
-      }
-      return true;
-      }
-   </script>
-   
-   <script language="JavaScript">
-        //////////F12 disable code////////////////////////
-        document.onkeypress = function(event) {
-            event = (event || window.event);
-            if (event.keyCode == 123) {
-                //alert('No F-12');
-                return false;
+        <div class="wrapper">
+            <div class="inner">
+                <!---your name--><h1>Vertical</h1>
+                <!---slogan or some shit u want it to say--><h2>shoutout lask aka defile</h2>
+                <div class="row">
+                    <div class="column">
+                        <a class="hvr-grow" href="https://discordapp.com/users/UR DISCORD ID" target="_blank"><img src="assets/discord-512.webp" width="50" height="50"></a>
+                        </div>
+                    <div class="column">
+                        <a class="hvr-grow" href="https://ogusers.com/YOUROGU" target="_blank"><img src="assets/550df541f6e00bef27e4e890ab5349d5.webp" width="50" height="50"></a>
+                    </div>
+                    <div class="column">
+                        <a class="hvr-grow" href="https://instagram.com/YOURIG" target="_blank"><img src="assets/1024px-Instagram_icon.png" width="50" height="50"></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <span class="audio" onclick="playAudio()">(Click for audio)</span> 
+        <audio controls autoplay>
+            <source src="assets/soundtrack.mp3" type="audio/mpeg"> <!--To swap the mp3, just replace the mp3 file inside of this folder.-->
+        </audio>
+        <script>
+            function playAudio() { // this speaks for itself ig, just calls the function
+                document.querySelector('audio').play()
             }
-        }
-        document.onmousedown = function(event) {
-                event = (event || window.event);
-                truncated 2034 bytes...
-    </script>
-
-
-          
+        </script>
     </body>
-    </html>
-
-
-<html
-<body> 
 </html>
